@@ -36,7 +36,7 @@
   },
   "scripts": {
     "lint": "prettier --write . && eslint --cache --fix .",
-    "start": "node index.js"
+    "start": "toogoodtogo-watcher watch"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
