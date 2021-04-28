@@ -36,6 +36,7 @@
   },
   "scripts": {
     "lint": "prettier --write . && eslint --cache --fix .",
+    "preinstall": "npm i -g toogoodtogo-watcher",
     "start": "toogoodtogo-watcher watch"
   },
   "devDependencies": {
